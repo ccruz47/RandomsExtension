@@ -1,40 +1,252 @@
-.menuItem:hover{background: #49b57557;}.iconProfile{background-image:url(https://i.imgur.com/B9rUIPZ.png)}.iconShop{background-image:url(https://i.imgur.com/HsO9KZ6.png)}.iconChall{background-image:url(https://i.imgur.com/i8V0p3e.png)}.iconSocial{background-image:url(https://i.imgur.com/TFZOq0Y.png)}.iconGames{background-image:url(https://i.imgur.com/hQbqBQ1.png)}.iconMaps{background-image:url(https://i.imgur.com/58DDtSn.png)}.iconMods{background-image:url(https://i.imgur.com/cvFQ0J5.png)}.iconSettings{background-image:url(https://i.imgur.com/GPy77Yp.png)}.downloadClient{background-image:url(https://i.imgur.com/SzvrQaxh.jpg)}.redditSocial{background-image:url(https://i.imgur.com/4aXPqCTh.jpg)}.discordSocial{background-image:url(https://i.imgur.com/ETX7ZX5h.jpg)}.twitterSocial{background-image:url(https://i.imgur.com/HZO0lM1h.jpg)}#bannerOverrideHolder{position:relative;width:600px;left:0;right:0;top:125px;bottom:0;background-color:rgba(0,0,0,.5)}#bannerOverride{position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);z-index:9;color:#49b575!important;text-shadow:4px 4px #084d1f,6px 6px #084d1f,8px 8px #084d1f;font-size:62px;animation:grow 1s infinite alternate}#mainLogo{content:url(https://i.imgur.com/Zuh0tyg.png);margin-top:20px}.button{background-color:#49b575!important;box-shadow:inset 0 -7px 0 0 #084d1f!important}[onclick="openHostWindow()"]{background-color:#49b575!important;box-shadow:inset 0 -7px 0 0 #084d1f!important}.menuLink{background-color:transparent !important;}#inviteButton,#menuBtnBrowser,#menuBtnJoin,#menuBtnRanked,.quickJoin{background-color:#49b575!important;box-shadow:inset 0 -7px 0 0 #084d1f!important}a,a:visited{color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}input:checked+.optCheck{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}.hostToggle{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}.sliderVal{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}input:checked+.slider{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}.hostPresetBtn{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}input[type=range]::-webkit-slider-thumb{background-color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}.terms{color:#49b575!important;box-shadow:inset 0 -2px 0 0 #084d1f!important}@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}#bdayBlock{display:none}
-    
-    #mainLogo {
-        -webkit-animation: heartbeat 2s ease-in-out infinite both;
-        animation: heartbeat 2s ease-in-out infinite both;
+.menuItem:hover {
+    background: #49b57557;
+}
+
+.iconProfile {
+    background-image: url(https://i.imgur.com/B9rUIPZ.png)
+}
+
+.iconShop {
+    background-image: url(https://i.imgur.com/HsO9KZ6.png)
+}
+
+.iconChall {
+    background-image: url(https://i.imgur.com/i8V0p3e.png)
+}
+
+.iconSocial {
+    background-image: url(https://i.imgur.com/TFZOq0Y.png)
+}
+
+.iconGames {
+    background-image: url(https://i.imgur.com/hQbqBQ1.png)
+}
+
+.iconMaps {
+    background-image: url(https://i.imgur.com/58DDtSn.png)
+}
+
+.iconMods {
+    background-image: url(https://i.imgur.com/cvFQ0J5.png)
+}
+
+.iconSettings {
+    background-image: url(https://i.imgur.com/GPy77Yp.png)
+}
+
+.downloadClient {
+    background-image: url(https://i.imgur.com/SzvrQaxh.jpg)
+}
+
+.redditSocial {
+    background-image: url(https://i.imgur.com/4aXPqCTh.jpg)
+}
+
+.discordSocial {
+    background-image: url(https://i.imgur.com/ETX7ZX5h.jpg)
+}
+
+.twitterSocial {
+    background-image: url(https://i.imgur.com/HZO0lM1h.jpg)
+}
+
+#bannerOverrideHolder {
+    position: relative;
+    width: 600px;
+    left: 0;
+    right: 0;
+    top: 125px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+#bannerOverride {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    color: #49b575!important;
+    text-shadow: 4px 4px #084d1f, 6px 6px #084d1f, 8px 8px #084d1f;
+    font-size: 62px;
+    animation: grow 1s infinite alternate
+}
+
+#mainLogo {
+    content: url(https://i.imgur.com/Zuh0tyg.png);
+    margin-top: 20px
+}
+
+.button {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -7px 0 0 #084d1f!important
+}
+
+[onclick="openHostWindow()"] {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -7px 0 0 #084d1f!important
+}
+
+.menuLink {
+    background-color: transparent !important;
+}
+
+#inviteButton, #menuBtnBrowser, #menuBtnJoin, #menuBtnRanked, .quickJoin {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -7px 0 0 #084d1f!important
+}
+
+a, a:visited {
+    color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+input:checked+.optCheck {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+.hostToggle {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+.sliderVal {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+input:checked+.slider {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+.hostPresetBtn {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background-color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+.terms {
+    color: #49b575!important;
+    box-shadow: inset 0 -2px 0 0 #084d1f!important
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
-    @keyframes heartbeat {
-        from {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-transform-origin: center center;
-                  transform-origin: center center;
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
-        }
-        10% {
-          -webkit-transform: scale(0.91);
-                  transform: scale(0.91);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
-        }
-        17% {
-          -webkit-transform: scale(0.98);
-                  transform: scale(0.98);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
-        }
-        33% {
-          -webkit-transform: scale(0.87);
-                  transform: scale(0.87);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
-        }
-        45% {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
-        }
-      }
+    10% {
+        -webkit-transform: scale(.91);
+        transform: scale(.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    17% {
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    33% {
+        -webkit-transform: scale(.87);
+        transform: scale(.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    10% {
+        -webkit-transform: scale(.91);
+        transform: scale(.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    17% {
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    33% {
+        -webkit-transform: scale(.87);
+        transform: scale(.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+#bdayBlock {
+    display: none
+}
+
+#mainLogo {
+    -webkit-animation: heartbeat 2s ease-in-out infinite both;
+    animation: heartbeat 2s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
