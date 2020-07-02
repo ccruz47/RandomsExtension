@@ -1,4 +1,3 @@
-(function () {
     client.on('message', (channel, tags, message, self) => {
         if (self) return;
         var commandData = parseCommand(message);
@@ -10,4 +9,3 @@
             }
         }
     });
-})();
